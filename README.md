@@ -28,6 +28,6 @@
 
 
 1. Java
-   [![Demo Project Java]](https://youtu.be/Sx0ZryR7RZA)
+   [![Demo Project Java]](https://youtu.be/5_7AqrJSc5g)
 2. Python
-   [![Demo Project Python]](https://youtu.be/XB6xfv3JbuY)
+   [![Demo Project Python]](https://youtu.be/MMhNj6I3kC8)
