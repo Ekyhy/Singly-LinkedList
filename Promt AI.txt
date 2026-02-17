@@ -1,0 +1,62 @@
+Promt AI:
+
+Tools AI [Gemini]
+1. Bagaimana cara membuat linkedlist pada bahasa pemrogrmaan java tanpa menggunakan library bawaan java, dan pada pemrogrman tersebut saya ingin mengolah data nim dan nama mahasiswa
+
+2. Apakah unutk logika hapus data from end yang saya buat telah baik?
+    public void hapusDataBelakang(){
+        int count = countNodes();
+        if (head == null) {
+
+            return;
+
+        }
+        Node hapusDataBelakang = head;
+
+        for(int i = 1; i < count; i++ ){
+
+            hapusDataBelakang = hapusDataBelakang.next;
+
+        }
+        while (hapusDataBelakang.next.next != null) {
+
+            hapusDataBelakang = hapusDataBelakang.next;
+
+        }
+
+    }
+
+Tools AI[chatGPT]
+1. Bagaimana saya dapat melengkapi dengan logika yang benar terkait linkedlist pada struktur kode berikut ini
+
+class Node:
+    def __init__(self, nimMahasiswa, namaMahasiswa):
+        self.nimMahsiswa = nimMahasiswa
+        self.namaMahsiswa = namaMahasiswa
+        self.next = None
+
+class linkedListMahasiswa:
+    def __init__(self):
+        self.head = None
+
+    def insertAtFront(self, nimMahasiswa, namaMahasiswa):
+        new_node = Node(nimMahasiswa,namaMahasiswa)
+        new_node.next = head
+        return new_node
+
+
+    def count_head(head):
+        count = 0
+        curr = head
+
+        while curr is not None:
+            count += 1
+        curr = curr.next
+        return count
+    
+    def showDataMahasiswa(head):
+    
+
+if __name__ == "__main__":
+    inpNimMahasiswa = int(input("Masukkan NIM Mahasiswa: "))
+    inpNamaMahasiswa = input("Masukkan Nama Mahasiswa: ")
